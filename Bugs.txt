@@ -1,1 +1,0 @@
-Wenn Neu gesendet wird obwohl noch Audio abgespielt wird auf Empfänger -> gesendets geht verloren -> Unexpected behavior
