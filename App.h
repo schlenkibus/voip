@@ -17,9 +17,6 @@ private:
 	std::string m_ipString;
 	AufnehmButton * aButton;
 
-	/*App(const App& other) =delete;
-	App& operator= (const App&) =delete;*/
-
 public:
 	App(void);
 	~App(void);
@@ -32,4 +29,3 @@ public:
 	void setIP(std::string &str);
 	void makeIPAdress();
 };
-

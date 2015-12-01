@@ -14,6 +14,4 @@ public:
 	~TCPconnection(void);
 	bool waitForConnections(); //Returns false if connection/portbind/packet recieveing fails
 	void connectWithSocket(sf::IpAddress &ip, sf::Packet &sampleP, sf::Packet &infoP);
-	sf::Packet getPacket(short i);
 };
-

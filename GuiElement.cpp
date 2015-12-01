@@ -15,6 +15,7 @@ GuiElement::~GuiElement(void)
 {
 }
 
+<<<<<<< HEAD
 bool GuiElement::isClicked(sf::RenderWindow &window)
 {
 	if(shape.getGlobalBounds().contains(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y) &&
@@ -30,6 +31,8 @@ bool GuiElement::isClicked(sf::RenderWindow &window)
 	}
 }
 
+=======
+>>>>>>> 757e79f92fbe5f7a0aa0f3e1273ff7618603b18b
 void GuiElement::draw(sf::RenderWindow &window)
 {
 	window.draw(shape);
