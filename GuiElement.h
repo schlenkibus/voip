@@ -1,5 +1,5 @@
 #pragma once
-#include "SFML\Graphics.hpp"
+#include <SFML/Graphics.hpp>
 
 class GuiElement
 {
@@ -13,4 +13,5 @@ public:
 	virtual bool onMousePressed(sf::Vector2i pos);
 	virtual bool onMouseReleased(sf::RenderWindow &window);
 	virtual bool textEntered(sf::Event &event);
+	virtual bool isClicked(sf::RenderWindow &window);
 };

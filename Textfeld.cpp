@@ -1,5 +1,5 @@
 #include "Textfeld.h"
-#include "SFML\Network.hpp"
+#include <SFML/Network.hpp>
 #include "App.h"
 #include <iostream>
 

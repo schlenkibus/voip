@@ -1,4 +1,4 @@
-#include "SFML\Graphics.hpp"
+#include <SFML/Graphics.hpp>
 #include "Button.h"
 #include "Textfeld.h"
 #include "Label.h"

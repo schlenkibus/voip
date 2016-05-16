@@ -1,5 +1,5 @@
 #include "App.h"
-#include "SFML\Network.hpp"
+#include <SFML/Network.hpp>
 #include "AufnehmButton.h"
 
 App::App(void)

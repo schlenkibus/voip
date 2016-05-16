@@ -1,7 +1,7 @@
 #pragma once
 
-#include "SFML\System.hpp"
-#include "SFML\Audio.hpp"
+#include <SFML/System.hpp>
+#include <SFML/Audio.hpp>
 #include "TCPconnection.h"
 #include "AudioPlayer.h"
 #include "Textfeld.h"
